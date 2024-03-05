@@ -1,0 +1,117 @@
+.footer{
+    background-color: var(--cor-primaria);
+}
+.novidades{
+    padding: 1em;
+}
+.novidades__titulo{
+    font-family: var(--fonte-principal);
+    font-size: 18px;
+    font-weight: 500;
+    color:var(--cor-secundaria);
+    padding-bottom: 1em;
+}
+.novidades__texto{
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 300;
+    color:var(--cor-secundaria);
+    padding-bottom: 1em;
+
+}
+.novidades__email{
+    background-color: transparent;
+    border: 1px solid var(--cor-secundaria);
+    color: var(--cor-primaria);
+    border-radius: 24px;
+    padding: 0.5em;
+    width: 100%;
+    margin-bottom: 1em;
+}
+.novidades__email::placeholder{
+    text-align: center;
+    font-size: 16;
+    color: var(--cor-secundaria);
+    background-image: url(/img/Email.svg);
+    background-repeat: no-repeat;
+    background-position: 10%;
+}
+.novidades span{
+    display: flex;
+}
+.novidades__marca{
+    border-top: 1px solid #c4c4c4;
+    background-color: #f9f9f9;
+    padding: 1em;
+}
+.novidades__marca p{
+    font-family: var(--fonte-principal);
+    font-size:16px;
+    color: var(--cor-secundaria);
+}
+.footer__listas{
+    display: none;
+}
+/* --------------1024-----------*/
+@media screen and (min-width:1000px){
+    .novidades{
+        padding: 2em 0;
+        gap: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 20vh;
+    }
+    
+    .novidades__email{
+        height: 0.5em;
+        width:40vh
+    }
+    .novidades__titulo{
+        font-size: 24px;
+    }
+    .novidades__texto{
+        font-size: 16px;
+        
+    }
+    /* --------------------*/
+    .novidades__marca{
+        margin-bottom: 1em;
+        border-top: 1px solid #c4c4c4;
+        background-color: #f9f9f9;
+        padding: 2em 1em;
+        display: flex;
+        gap: 5em;
+    }
+    .novidades__marca p{
+        font-size:24px;
+    }
+    .footer__listas{
+        display: block;
+        display: flex;
+        gap: 2.5em;
+    }
+    .footer__listas__lista__titulo{
+        font-family: var(--fonte-principal);
+        color: var(--cor-rodape-primaria);
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-bottom: 2em;
+    }
+    .footer__listas__lista_links{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+    .footer__listas__lista_links__item a{
+        display: flex;
+        align-items: center;
+        gap: 0.5em;
+        text-decoration: none;
+        color: var(--cor-rodape-secundaria);
+        font-family: var(--fonte-principal);
+        font-size: 14px;
+    }
+
+}
