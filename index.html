@@ -148,7 +148,7 @@
                 <p class="card__conteiner__descricao__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
             </div>
             <!-- 2ª coluna -->
-            <img src="img/Escritora.svg" class="escritora">
+            <img src="img/Escritora.svg" class="descrição__imagem">
         </div>
         <div class="card__botões">
             <!-- 1ª coluna -->
@@ -189,7 +189,7 @@
             </span>
         </div>
         <div class="novidades__marca">
-            <p>Grupo Alura</p>
+            <p class="novidades__marca_titulo">Grupo Alura</p>
             <div class="footer__listas">
                 <div class="footer__listas__lista">
                     <h3 class="footer__listas__lista__titulo">educação</h3>
@@ -266,9 +266,12 @@
                 el: '.swiper-pagination',
                 type: 'bullets',
             },
-
+            navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+            },
         });
     </script>
-</body>
+</body> 
 
 </html>
