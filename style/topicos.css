@@ -33,9 +33,30 @@
     }
     .topicos__links a{
         font-size: 24px;
-        padding: 1em 0.5em;
+        padding: 1em 1em;
     }
     .topicos__links{
         gap: 1.1em;
+    }
+}
+/* ---------------1728------------- */
+@media screen and (min-width:1728px){
+    .topicos{
+        padding: 2em 25%;
+    }
+    .topicos__titulo{
+        text-transform: uppercase;
+        font-size: 32px;
+        font-weight: 300;
+        margin: 0;
+    }
+    .topicos__links{
+
+        margin-bottom: 2em;
+        gap: 1.1em 1.1em;
+    }
+    .topicos__links a{
+        font-size: 24px;
+        padding: 1em 2em;
     }
 }

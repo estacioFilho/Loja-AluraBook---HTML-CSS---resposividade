@@ -65,6 +65,9 @@ background-color: var(--cor-primaria);
 .cabecalho__lista__1024{
     display: none;
 }
+.cabecalho__conteiner__imagem-1728 p{
+    display: none;
+}
 /* ----------------- 1024px --------------- */
 
 @media screen and (min-width: 800px){
@@ -126,3 +129,24 @@ background-color: var(--cor-primaria);
         justify-content:flex-start;
     }
 }
+/* --------------1728px-------------- */
+@media screen and (min-width:1728px){
+    .cabecalho__conteiner__imagem-1728 p{
+
+        display: block;
+    }
+
+    .cabecalho__conteiner__imagem-1728{
+        display: flex;
+        align-items: center;
+        font-family: var(--fonte-principal);
+        color: var(--cor-preto);
+    }
+    .cabecalho{
+        padding: 0 2.5em;
+    }
+    .cabecalho__lista__1024{
+        margin-right: 35%;
+    }
+}
+    
