@@ -27,7 +27,7 @@
     font-family: var(--fonte-principal);
     font-size: 14px;
     color: var(--cor-primaria);
-    background: url("img/Lupa.svg") no-repeat;
+    background: url("../img/Lupa.svg") no-repeat;
     background-position: 1em;
     text-align: center; 
     padding-left: 2.5em;
