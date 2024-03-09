@@ -28,9 +28,8 @@
     font-size: 14px;
     color: var(--cor-primaria);
     background: url("../img/Lupa.svg") no-repeat;
-    background-position: 1em;
+    background-position: 15%;
     text-align: center; 
-    padding-left: 1.5em;
 }
 /* ------------------1024------------------------ */
 @media screen and (min-width: 800px){
@@ -51,8 +50,9 @@
 }
 
 /* -------------------1728px------------- */
-
-.banner-conteiner__pesquisa::placeholder{
-    font-size: 16px;
-    background-position: 25%;   
+@media screen and (min-width: 1728px){
+    .banner-conteiner__pesquisa::placeholder{
+        font-size: 16px;
+        background-position: 25%;   
+    }
 }
